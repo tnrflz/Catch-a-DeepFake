@@ -1,0 +1,59 @@
+.result-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.green {
+    border: 3px solid green;
+}
+
+.red {
+    border: 3px solid red;
+}
+
+.done-icon {
+    font-size: 8.5rem;
+    align-items: center;
+    color: green;
+    margin-top: 50px;
+}
+
+.wrong-icon {
+    font-size: 8.5rem;
+    font-weight: 200;
+    align-items: center;
+    color: red;
+    margin-top: 60px;
+}
+
+.result-desc {
+    display: flex;
+    justify-content: center;
+}
+
+.result-desc h3 {
+    font-weight: 250;
+    font-size: 2.5rem;
+    white-space: nowrap;
+    padding-top: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container Button {
+    margin-right: 20px;
+}
